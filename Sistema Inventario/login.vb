@@ -9,11 +9,14 @@ Public Class login
         If Not IsNothing(U) Then
             Dim msj As String = "Bienvenido " & U.nom & " " & U.ape
             MsgBox(msj, MsgBoxStyle.Information)
-
+            Dim objfrom As New FrmPrincipal
         Else
             MsgBox("DATOS INCORRECTOS", MsgBoxStyle.Exclamation)
         End If
 
 
+    End Sub
+    Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Me.Close()
     End Sub
 End Class

@@ -18,5 +18,4 @@ Public Class frmRegistrarEquipo
         End If
 
     End Sub
-
 End Class

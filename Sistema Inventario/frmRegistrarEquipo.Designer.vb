@@ -159,7 +159,7 @@ Partial Class frmRegistrarEquipo
         '
         'txtCod
         '
-        Me.txtCod.Location = New System.Drawing.Point(190, 80)
+        Me.txtCod.Location = New System.Drawing.Point(189, 89)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(199, 20)
         Me.txtCod.TabIndex = 1
@@ -248,7 +248,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label2.Location = New System.Drawing.Point(21, 80)
+        Me.Label2.Location = New System.Drawing.Point(20, 89)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(158, 20)
         Me.Label2.TabIndex = 0

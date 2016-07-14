@@ -7,7 +7,10 @@ Public Class clsEquipoAD
         Dim dr As MySqlDataReader
         Try
             con.conectar()
-            sql = "select * from  tipo"
+            sql = "select e.id,e.codigo,e.marca,e.serie,e.modelo,.t.description,t.ip,t.nomb,p.per_Apellidos as ape,tba.are_NombreCorto as area,e.nombrepc,t.id asidtipo from " & _
+            "(equipo as e INNER JOIN tipo as t ON e.idtipo=t.id) INNER JOIN tbpersona_area as tbpa ON "
+
+
             sentencia = New MySqlCommand(sql, con.getCon)
             dr = sentencia.ExecuteReader()
             If dr.HasRows Then
@@ -28,8 +31,8 @@ Public Class clsEquipoAD
                 Return dt
             End If
         Catch ex As Exception
-
+            Return Nothing
         End Try
-
+        Return Nothing
     End Function
 End Class

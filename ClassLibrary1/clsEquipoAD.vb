@@ -7,7 +7,7 @@ Public Class clsEquipoAD
         Dim dr As MySqlDataReader
         Try
             con.conectar()
-            sql = "select e.id,e.codigo,e.marca,e.serie,e.modelo,.t.description,t.ip,t.nomb,p.per_Apellidos as ape,tba.are_NombreCorto as area,e.nombrepc,t.id asidtipo from " & _
+            sql = "select e.id,e.codigo,e.marca,e.serie,e.modelo,.t.description,t.ip,t.nomb,p.per_Apellidos as ape,tba.are_NombreCorto as area,e.nombrepc,t.id as idtipo from " & _
             "(equipo as e INNER JOIN tipo as t ON e.idtipo=t.id) INNER JOIN tbpersona_area as tbpa ON "
 
 

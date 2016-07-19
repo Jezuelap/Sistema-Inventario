@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsConeccion.vb" />
+    <Compile Include="clsEquipoAD.vb" />
     <Compile Include="clsTipoAD.vb" />
     <Compile Include="clsUsuarioAD.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

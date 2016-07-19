@@ -22,8 +22,40 @@ Partial Class frmListaEquipos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.lstEquipos = New System.Windows.Forms.ListBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'lstEquipos
+        '
+        Me.lstEquipos.FormattingEnabled = True
+        Me.lstEquipos.Location = New System.Drawing.Point(12, 55)
+        Me.lstEquipos.Name = "lstEquipos"
+        Me.lstEquipos.Size = New System.Drawing.Size(626, 563)
+        Me.lstEquipos.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(39, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(85, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Lista de Equipos"
+        '
+        'frmListaEquipos
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(650, 627)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lstEquipos)
+        Me.Name = "frmListaEquipos"
         Me.Text = "frmListaEquipos"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+    Friend WithEvents lstEquipos As System.Windows.Forms.ListBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

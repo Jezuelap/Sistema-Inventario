@@ -18,4 +18,8 @@ Public Class frmRegistrarEquipo
         End If
 
     End Sub
+
+    Private Sub btnRegistrar_Click(sender As Object, e As EventArgs) Handles btnRegistrar.Click
+
+    End Sub
 End Class

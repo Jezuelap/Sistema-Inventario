@@ -56,7 +56,7 @@ Partial Class FrmPrincipal
         'RegEqui
         '
         Me.RegEqui.Name = "RegEqui"
-        Me.RegEqui.Size = New System.Drawing.Size(152, 22)
+        Me.RegEqui.Size = New System.Drawing.Size(120, 22)
         Me.RegEqui.Text = "Registrar"
         '
         'MANTENIMIENTOToolStripMenuItem

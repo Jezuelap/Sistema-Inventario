@@ -23,6 +23,8 @@ Partial Class frmRegistrarEquipo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnRegistrar = New System.Windows.Forms.Button()
+        Me.btnCerrar = New System.Windows.Forms.Button()
         Me.dtpFechaE = New System.Windows.Forms.DateTimePicker()
         Me.cmbEstado = New System.Windows.Forms.ComboBox()
         Me.cmbTipo = New System.Windows.Forms.ComboBox()
@@ -44,8 +46,6 @@ Partial Class frmRegistrarEquipo
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnCerrar = New System.Windows.Forms.Button()
-        Me.btnRegistrar = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -78,6 +78,24 @@ Partial Class frmRegistrarEquipo
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(408, 528)
         Me.Panel1.TabIndex = 0
+        '
+        'btnRegistrar
+        '
+        Me.btnRegistrar.Location = New System.Drawing.Point(38, 467)
+        Me.btnRegistrar.Name = "btnRegistrar"
+        Me.btnRegistrar.Size = New System.Drawing.Size(127, 23)
+        Me.btnRegistrar.TabIndex = 4
+        Me.btnRegistrar.Text = "Registrar"
+        Me.btnRegistrar.UseVisualStyleBackColor = True
+        '
+        'btnCerrar
+        '
+        Me.btnCerrar.Location = New System.Drawing.Point(260, 467)
+        Me.btnCerrar.Name = "btnCerrar"
+        Me.btnCerrar.Size = New System.Drawing.Size(115, 23)
+        Me.btnCerrar.TabIndex = 4
+        Me.btnCerrar.Text = "Cerrar"
+        Me.btnCerrar.UseVisualStyleBackColor = True
         '
         'dtpFechaE
         '
@@ -263,24 +281,6 @@ Partial Class frmRegistrarEquipo
         Me.Label1.Size = New System.Drawing.Size(174, 30)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nuevo Equipo"
-        '
-        'btnCerrar
-        '
-        Me.btnCerrar.Location = New System.Drawing.Point(260, 467)
-        Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(115, 23)
-        Me.btnCerrar.TabIndex = 4
-        Me.btnCerrar.Text = "Cerrar"
-        Me.btnCerrar.UseVisualStyleBackColor = True
-        '
-        'btnRegistrar
-        '
-        Me.btnRegistrar.Location = New System.Drawing.Point(38, 467)
-        Me.btnRegistrar.Name = "btnRegistrar"
-        Me.btnRegistrar.Size = New System.Drawing.Size(127, 23)
-        Me.btnRegistrar.TabIndex = 4
-        Me.btnRegistrar.Text = "Registrar"
-        Me.btnRegistrar.UseVisualStyleBackColor = True
         '
         'frmRegistrarEquipo
         '

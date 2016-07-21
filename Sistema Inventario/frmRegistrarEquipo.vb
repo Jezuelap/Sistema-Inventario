@@ -22,4 +22,10 @@ Public Class frmRegistrarEquipo
     Private Sub btnRegistrar_Click(sender As Object, e As EventArgs) Handles btnRegistrar.Click
 
     End Sub
+
+    Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
+        If MsgBox("¿DESEA SALIR DE ESTA VENTANA Y VOLVER AL MENU PRINCIPAL?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+            Me.Dispose()
+        End If
+    End Sub
 End Class

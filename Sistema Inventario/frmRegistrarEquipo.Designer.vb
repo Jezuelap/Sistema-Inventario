@@ -76,42 +76,42 @@ Partial Class frmRegistrarEquipo
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(408, 528)
+        Me.Panel1.Size = New System.Drawing.Size(796, 388)
         Me.Panel1.TabIndex = 0
         '
         'btnRegistrar
         '
-        Me.btnRegistrar.Location = New System.Drawing.Point(38, 467)
+        Me.btnRegistrar.Location = New System.Drawing.Point(200, 327)
         Me.btnRegistrar.Name = "btnRegistrar"
-        Me.btnRegistrar.Size = New System.Drawing.Size(127, 23)
-        Me.btnRegistrar.TabIndex = 4
+        Me.btnRegistrar.Size = New System.Drawing.Size(140, 44)
+        Me.btnRegistrar.TabIndex = 10
         Me.btnRegistrar.Text = "Registrar"
         Me.btnRegistrar.UseVisualStyleBackColor = True
         '
         'btnCerrar
         '
-        Me.btnCerrar.Location = New System.Drawing.Point(260, 467)
+        Me.btnCerrar.Location = New System.Drawing.Point(461, 327)
         Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(115, 23)
-        Me.btnCerrar.TabIndex = 4
+        Me.btnCerrar.Size = New System.Drawing.Size(125, 44)
+        Me.btnCerrar.TabIndex = 11
         Me.btnCerrar.Text = "Cerrar"
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
         'dtpFechaE
         '
-        Me.dtpFechaE.Location = New System.Drawing.Point(188, 344)
+        Me.dtpFechaE.Location = New System.Drawing.Point(580, 160)
         Me.dtpFechaE.Name = "dtpFechaE"
         Me.dtpFechaE.Size = New System.Drawing.Size(200, 20)
-        Me.dtpFechaE.TabIndex = 3
+        Me.dtpFechaE.TabIndex = 7
         '
         'cmbEstado
         '
         Me.cmbEstado.FormattingEnabled = True
         Me.cmbEstado.Items.AddRange(New Object() {"OPERATIVO", "DAÑADO"})
-        Me.cmbEstado.Location = New System.Drawing.Point(188, 412)
+        Me.cmbEstado.Location = New System.Drawing.Point(580, 228)
         Me.cmbEstado.Name = "cmbEstado"
         Me.cmbEstado.Size = New System.Drawing.Size(199, 21)
-        Me.cmbEstado.TabIndex = 2
+        Me.cmbEstado.TabIndex = 9
         '
         'cmbTipo
         '
@@ -121,42 +121,42 @@ Partial Class frmRegistrarEquipo
         Me.cmbTipo.Location = New System.Drawing.Point(190, 234)
         Me.cmbTipo.Name = "cmbTipo"
         Me.cmbTipo.Size = New System.Drawing.Size(199, 21)
-        Me.cmbTipo.TabIndex = 2
+        Me.cmbTipo.TabIndex = 4
         '
         'txtDescripcion
         '
-        Me.txtDescripcion.Location = New System.Drawing.Point(188, 379)
+        Me.txtDescripcion.Location = New System.Drawing.Point(580, 195)
         Me.txtDescripcion.Name = "txtDescripcion"
         Me.txtDescripcion.Size = New System.Drawing.Size(199, 20)
-        Me.txtDescripcion.TabIndex = 1
+        Me.txtDescripcion.TabIndex = 8
         '
         'txtip
         '
-        Me.txtip.Location = New System.Drawing.Point(189, 306)
+        Me.txtip.Location = New System.Drawing.Point(581, 122)
         Me.txtip.Name = "txtip"
         Me.txtip.Size = New System.Drawing.Size(199, 20)
-        Me.txtip.TabIndex = 1
+        Me.txtip.TabIndex = 6
         '
         'txtGarantia
         '
-        Me.txtGarantia.Location = New System.Drawing.Point(190, 269)
+        Me.txtGarantia.Location = New System.Drawing.Point(582, 85)
         Me.txtGarantia.Name = "txtGarantia"
         Me.txtGarantia.Size = New System.Drawing.Size(199, 20)
-        Me.txtGarantia.TabIndex = 1
+        Me.txtGarantia.TabIndex = 5
         '
         'txtModelo
         '
         Me.txtModelo.Location = New System.Drawing.Point(190, 198)
         Me.txtModelo.Name = "txtModelo"
         Me.txtModelo.Size = New System.Drawing.Size(199, 20)
-        Me.txtModelo.TabIndex = 1
+        Me.txtModelo.TabIndex = 3
         '
         'txtSerie
         '
         Me.txtSerie.Location = New System.Drawing.Point(190, 156)
         Me.txtSerie.Name = "txtSerie"
         Me.txtSerie.Size = New System.Drawing.Size(199, 20)
-        Me.txtSerie.TabIndex = 1
+        Me.txtSerie.TabIndex = 2
         '
         'txtMarca
         '
@@ -169,7 +169,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label11.Location = New System.Drawing.Point(20, 413)
+        Me.Label11.Location = New System.Drawing.Point(412, 229)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(65, 20)
         Me.Label11.TabIndex = 0
@@ -180,13 +180,13 @@ Partial Class frmRegistrarEquipo
         Me.txtCod.Location = New System.Drawing.Point(189, 89)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(199, 20)
-        Me.txtCod.TabIndex = 1
+        Me.txtCod.TabIndex = 0
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label10.Location = New System.Drawing.Point(20, 378)
+        Me.Label10.Location = New System.Drawing.Point(412, 194)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(107, 20)
         Me.Label10.TabIndex = 0
@@ -196,7 +196,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label9.Location = New System.Drawing.Point(21, 344)
+        Me.Label9.Location = New System.Drawing.Point(413, 160)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(60, 20)
         Me.Label9.TabIndex = 0
@@ -206,7 +206,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label8.Location = New System.Drawing.Point(21, 305)
+        Me.Label8.Location = New System.Drawing.Point(413, 121)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(109, 20)
         Me.Label8.TabIndex = 0
@@ -216,7 +216,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Rockwell", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label7.Location = New System.Drawing.Point(21, 269)
+        Me.Label7.Location = New System.Drawing.Point(413, 85)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(81, 20)
         Me.Label7.TabIndex = 0
@@ -276,7 +276,7 @@ Partial Class frmRegistrarEquipo
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Rockwell", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
-        Me.Label1.Location = New System.Drawing.Point(120, 21)
+        Me.Label1.Location = New System.Drawing.Point(329, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(174, 30)
         Me.Label1.TabIndex = 0
@@ -286,9 +286,13 @@ Partial Class frmRegistrarEquipo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(431, 552)
+        Me.ClientSize = New System.Drawing.Size(819, 410)
         Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmRegistrarEquipo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "frmRegistrarEquipo"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

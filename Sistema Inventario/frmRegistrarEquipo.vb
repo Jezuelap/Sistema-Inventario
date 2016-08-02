@@ -14,7 +14,7 @@ Public Class frmRegistrarEquipo
             cmbTipo.ValueMember = "id"
             cmbTipo.DisplayMember = "descripcion"
         Else
-            MsgBox("no da")
+            MsgBox("Error")
         End If
 
     End Sub
